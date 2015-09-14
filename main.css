@@ -1,3 +1,7 @@
  body {
-    	background-color: red;
+    	background-image: url(hila.jpg);
+    }
+
+    #nav-wrapper {
+    	background-color: blue;
     }
