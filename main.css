@@ -1,6 +1,4 @@
- /*body {
-    	background-image: url(hila.jpg);
-    }*/
+
 
  
     }
@@ -29,6 +27,12 @@
 #big-footer {
 	background-color: #290066;
 }
-    /*.hila-avatar{
-    	float: 
-    }*/
+    
+ body {
+    	background-image: url(hila.jpg);
+    }
+
+    #nav-wrapper {
+    	background-color: blue;
+    }
+
