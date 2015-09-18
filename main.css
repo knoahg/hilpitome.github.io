@@ -10,12 +10,18 @@
 
 
 .portfolio {
+	text-align: center;
 	height: 500px;
 	background-color:blue;
 }
 .about {
+    color: white;
+	text-align: center;
 	height: 500px;
-	background-color:green;
+	background-image: url("images/bullseye.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
 }
 
 .img-circle {
