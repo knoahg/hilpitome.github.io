@@ -3,11 +3,21 @@
  
     
 .page-intro{
+	text-align: center;
 	height: 500px;
 	background-color:red;
-
-    
 }
+
+
+.portfolio {
+	height: 500px;
+	background-color:blue;
+}
+.about {
+	height: 500px;
+	background-color:green;
+}
+
 .img-circle {
         border-radius: 50%;
         max-width: 200px; 
@@ -28,12 +38,8 @@
 #big-footer {
 	background-color: #290066;
 }
-    
- /*body {
-    	background-image: url(hila.jpg);
-    }*/
 
-#nav-wrapper {
-    	background-color: blue;
-    }
+    
+
+
 
