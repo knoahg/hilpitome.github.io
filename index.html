@@ -25,7 +25,7 @@
 
     <body>
 
-     
+
     <div class="navbar-fixed">
     <nav class="black">
     <div class="nav-wrappper">
@@ -33,39 +33,40 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
 
         <li><a href="#port">Contact</a></li>
-        
+
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
       </ul>
       </div>
       </nav>
     </div>
-   
-  
+
+
   <div class="container-fluid">
 
    <div class="page-intro">
-     
+
 
    <!--    <article class="pic"> -->
-   
 
-   <h1 class="animated rubberBand">Hallo</h1> 
+
+   <h1 class="animated rubberBand">Hallo</h1>
 
    <h3 class="animated flipInX">My Name is Hilary Egesa</h3>
 
-   <h3 class="animated flipInX">I am a Backend Dev</h3>   
+   <h3 class="animated flipInX">I am a Backend Dev</h3>
 
-   <h3 class="animated zoomIn">Ruby on Rails</h3>  
-  
+   <h3 class="animated zoomIn">specialzing in: <h3><span class="element"></span></h3></h3>
+
+
 
   <!--  <div class="col s4 offset-s4">
       <img class ="hila-avatar img-circle responsive-img" item-prop="image" alt="Hilary's photo" src="images/hila.jpg">
       </div>
-     <!--  	
-      </article> --> 
-         	 	
-    </div> 
+     <!--
+      </article> -->
+
+    </div>
 
 
 
@@ -75,32 +76,33 @@
        <div calss="row">
        <div class="col s4 grow pic">
        <img src="images/hila.xsf" alt="portrait">
-         
+
+
        </div>
 
        <div class="col s4">
-         
+
        </div>
 
        <div class="col s4">
-         
+
        </div>
 
        </div>
 
        <div calss="row">
        <div class="col s4">
-         
+
        </div>
 
        <div class="col s4">
-         
+
        </div>
 
        <div class="col s4">
-         
+
        </div>
-       
+
        </div>
 
     </div>
@@ -119,7 +121,7 @@
               <div class="left form col l6 s12 black" id="contact">
                 <form class="col s12">
                 <div class="row">
-                    
+
                     <div class="input-field col s6">
                         <i class="mdi-action-account-circle prefix white-text"></i>
                         <input id="first_name" type="text" class="validate white-text">
@@ -165,21 +167,32 @@
           </div>
           <div class="footer-copyright black white-text">
             <div class="container">
-            &copy; Hilary Egesa 2015  
+            &copy; Hilary Egesa 2015
             </div>
           </div>
-    
-    
 
 
-        
-     
-        
+
+
+
+
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-
+      <script src="jquery.js"></script>
+      <script src="typed.js"></script>
+      <script>
+          $(function(){
+              $(".element").typed({
+                  strings: ["Ruby on Rails.", "Java.", "android"],
+                  typeSpeed: 0
+              });
+          });
+      </script>
     </body>
 
+
+
+
   </html>
-        
