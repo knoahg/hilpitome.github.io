@@ -8,9 +8,9 @@
           box-sizing: border-box;
 }
 
-body {
+/*body {
   background: #333;
-}
+}*/
 
 .pic {
   border: 10px solid #fff;
@@ -28,7 +28,7 @@ body {
 .portfolio {
 	text-align: center;
 	height: 500px;
-	background-color:blue;
+
 }
 .about {
     color: white;
@@ -40,7 +40,7 @@ body {
 
 }
 
-.img-circle {
+/*.img-circle {
         border-radius: 50%;
         max-width: 200px;
         max-height: 200px;
@@ -52,11 +52,11 @@ body {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 15px;
-}
+}*/
 .nav-wrapper {
 	background-color: #290066;
 }
 
-#big-footer {
+/*#big-footer {
 	background-color: #290066;
-}
+}*/
