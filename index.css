@@ -12,6 +12,12 @@ body {
 	background-size: 100% 100%;
   background-color: #292933;
 }
+.statement {
+  float: left;
+}
+.skills {
+  float: right;
+}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -37,46 +43,76 @@ body {
 .spinner {
 	/* Size and position */
     font-size: 100px; /* 1em */
-	width: 1em;
+    width: 1em;
     height: 1em;
-    position: relative;
     margin: 100px auto;
+    position: relative;
 
     /* Styles */
+    list-style: none;
     border-radius: 50%;
-    background: #FF4F72; /* Fallback */
-    background:
-        linear-gradient(#ea2d0e 50%, #fcd883 50%), /* First column */
-        linear-gradient(#fcd883 50%, #ea2d0e 50%); /* Second column */
-    background-position:
-    	0 0,    /* Position of 1st column */
-    	100% 0; /* Position of 2nd column */
-    background-size: 50% 100%; /* Contraction of "50% 100%, 50% 100%" */
-    background-repeat: no-repeat;
-    box-shadow:
-    	inset 0 0 0 .12em rgba(0,0,0,0.2), /* Inner border */
-    	0 0 0 .12em rgba(255,255,255,0.1); /* Outter border */
-    opacity: 0.7;
-    animation: rota 3s infinite alternate;
+    border: .01em solid rgba(150,150,150,0.1); /* Subtle white line circling the dots */
 }
-.spinner:after {
-    /* Size */
-    content: "";
-    width: 50%;
-    height: 50%;
-
-    /* Perfect centering */
+.spinner li {
+	width: .2em;
+    height: .2em;
     position: absolute;
-    top: 25%;
-    left: 25%;
-
-    /* Styles */
-    border: .12em solid rgba(255,255,255,0.3);
-    border-radius: inherit;
+    border-radius: 50%;
+}
+.spinner li:nth-child(1) {
+	background: #00C176; /* Blue */
+    top: 0;
+    left: 50%;
+    margin-left: -.1em; /* Width/2 */
+    transform-origin: 50% 250%;
+    animation:
+        rota 1.13s linear infinite,
+        opa 3.67s ease-in-out infinite alternate;
+}
+.spinner li:nth-child(2) {
+    background: #FF003C; /* Red */
+    top: 50%;
+    right: 0;
+    margin-top: -.1em; /* Height/2 */
+    transform-origin: -150% 50%;
+    animation:
+        rota 1.86s linear infinite,
+        opa 4.29s ease-in-out infinite alternate;
+}
+.spinner li:nth-child(3) {
+    background: #FABE28; /* Yellow */
+    bottom: 0;
+    left: 50%;
+    margin-left: -.1em; /* Width/2 */
+    transform-origin: 50% -150%;
+    animation:
+        rota 1.45s linear infinite,
+        opa 5.12s ease-in-out infinite alternate;
+}
+.spinner li:nth-child(4) {
+    background: #88C100; /* Green */
+    top: 50%;
+    left 0;
+    margin-top -.1em; /* Height/2 */
+    transform-origin: 250% 50%;
+    animation:
+        rota 1.72s linear infinite,
+        opa 5.25s ease-in-out infinite alternate;
 }
 @keyframes rota {
-    25%  { transform: rotate(270deg); }
-    50%  { transform: rotate( 90deg); }
-    75%  { transform: rotate(360deg); }
-    100% { transform: rotate(180deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes opa {
+    12.0% { opacity: 0.80; }
+    19.5% { opacity: 0.88; }
+    37.2% { opacity: 0.64; }
+    40.5% { opacity: 0.52; }
+    52.7% { opacity: 0.69; }
+    60.2% { opacity: 0.60; }
+    66.6% { opacity: 0.52; }
+    70.0% { opacity: 0.63; }
+    79.9% { opacity: 0.60; }
+    84.2% { opacity: 0.75; }
+    91.0% { opacity: 0.87; }
 }
