@@ -1,9 +1,61 @@
 <html>
 <head>
 <title>Welcome!</title>
-<style type="text/CSS">
-body {background-color: #DCDCDC}
-</style>
+<link rel="stylesheet" href="css/animate/animate.min.css">
+<!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/><link rel="stylesheet" type="text/css" href="index.css"/>
+
+</head>
+<body onload="timeout()">
+
+  <div class="container-fluid">
+
+   <div  id ="intro" class="page-intro">
+
+
+   <!--    <article class="pic"> -->
+
+   <div class="row">
+   <h1 class="animated rubberBand">Hallo</h1>
+
+   <h3 class="animated flipInX">My Name is Hilary Egesa</h3>
+
+   <h3 class="animated flipInX">I am a Mobile and Web developer</h3>
+ </div>
+  <div class="row">
+    <div class="col s6">
+   <h3>specializing in:</h3>
+ </div>
+ <div class="col s6">
+    <h3 class="element"></h3>
+ </div>
+
+</div>
+
+  <!--  <div class="col s4 offset-s4">
+      <img class ="hila-avatar img-circle responsive-img" item-prop="image" alt="Hilary's photo" src="images/hila.jpg">
+      </div>
+     <!--
+      </article> -->
+</div>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="jquery.js"></script>
+<script src="typed.js"></script>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Ruby on Rails.", "Java.", "android"],
+            typeSpeed: 0
+        });
+    });
+</script>
+
+
 <script type="text/javascript">
 window.onload=timeout;
 function timeout(){
@@ -15,10 +67,5 @@ return}
 
 
 </script>
-</head>
-<body onload="timeout()">
 
-  <h1>I am Hilary</h1>
-
-</body>
 </html>
