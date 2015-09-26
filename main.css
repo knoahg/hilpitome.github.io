@@ -14,14 +14,27 @@
 
 .pic {
   border: 10px solid #fff;
-  float: left;
+
   height: 300px;
   width: 300px;
-  margin: 20px;
+  margin-right: 70px;
   overflow: hidden;
 
-  -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;
+  -webkit-box-shadow: 5px 5px 5px #00248F;
+          box-shadow: 5px 5px 5px #00248F;
+
+}
+
+.picbig{
+  position: fixed;
+  height: 0px;
+  -webkit-transition:height 0.3s linear 0s;
+  transition:height 1s linear 0s;
+  z-index: inherit;
+}
+
+.pic:hover + .picbig{
+  height: 500px;
 }
 
 
