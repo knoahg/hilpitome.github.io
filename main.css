@@ -25,13 +25,13 @@
 
 }
 
-.picbig{
+/*.picbig{
   position: fixed;
   height: 0px;
   -webkit-transition:height 0.3s linear 0s;
   transition:height 1s linear 0s;
   z-index: inherit;
-}
+}*/
 
 .pic:hover + .picbig{
   height: 500px;
@@ -40,7 +40,7 @@
 
 .portfolio {
 	text-align: center;
-	height: 500px;
+
 
 }
 .about {
