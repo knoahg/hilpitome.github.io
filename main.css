@@ -12,7 +12,7 @@
   background: #333;
 }*/
 
-.pic {
+/*.pic {
   border: 10px solid #fff;
 
   height: 300px;
@@ -21,9 +21,9 @@
   overflow: hidden;
 
   -webkit-box-shadow: 5px 5px 5px #00248F;
-          box-shadow: 5px 5px 5px #00248F;
+          box-shadow: 5px 5px 5px #00248F;*/
 
-}
+/*}*/
 
 /*.picbig{
   position: fixed;
@@ -33,15 +33,24 @@
   z-index: inherit;
 }*/
 
-.pic:hover + .picbig{
+/*.pic:hover + .picbig{
   height: 500px;
-}
+}*/
 
 
 .portfolio {
 	text-align: center;
 
-
+}
+.activator{
+  width: 250px;
+ height: 250px;
+ border-radius: 50%;
+ margin: 0 auto;
+ border: 7px solid #fff;
+}
+#andi{
+  font-size: 14px;
 }
 .about {
     color: white;
