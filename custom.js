@@ -6,7 +6,7 @@
         });
     });
 
-
+   $('#modal1').openModal();
 
 window.onload=timeout;
 function timeout(){

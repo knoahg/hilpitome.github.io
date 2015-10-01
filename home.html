@@ -80,7 +80,19 @@
     </div>
     <div class="row">
       <h3>About Me</h3>
-    </div>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
+        </div>
+
+  <!-- Modal Structure -->
 
   </div>
 
@@ -90,7 +102,8 @@
     <h3 class="animated slideInRight">All we have to do is focus</h3>
     </div>
 
-      <footer class="page-footer black">
+
+      <footer class="page-footer black" id="foot">
             <h4 style="text-align:center; color:white;">Contact Me</h4>
      <hr style="width:100px; color:rgba(0,0,0,0.4);" />
           <div class="container">
@@ -152,13 +165,12 @@
 
 
 
-
-
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
       <script src="jquery.js"></script>
       <script src="typed.js"></script>
+      <script type="text/javascript" src="custom.js"></script>
       <!-- <script>
           $(function(){
               $(".element").typed({

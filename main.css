@@ -1,4 +1,8 @@
-
+body {
+     height:100%;
+     margin:0;
+     padding:0;
+}
 
 .container-fluid{
   margin: 0;
@@ -59,3 +63,7 @@ div#port h1, h3{
 /*#big-footer {
 	background-color: #290066;
 }*/
+.modal{
+  height: 300px;
+  width: 500px;
+}
