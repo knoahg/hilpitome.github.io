@@ -5,13 +5,14 @@ body {
 }
 
 .container-fluid{
-  margin: 0;
+
 }
 
 .portfolio {
 	text-align: center;
    height: 400px;
    background-image: url("images/terminal.png");
+
 }
 div#port h1, h3{
 
@@ -66,4 +67,5 @@ div#port h1, h3{
 .modal{
   height: 300px;
   width: 500px;
+  background-color: red;
 }

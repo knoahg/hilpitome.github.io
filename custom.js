@@ -1,17 +1,13 @@
 
-    $(function(){
-        $(".element").typed({
-            strings: ["Hi", "I am Hilary Egesa!", "I am skilled in:","Ruby on Rails.", "Java.", "android.", "javascript.", " and User Experience(UX)"],
-            typeSpeed: 0.5
-        });
+
+
+
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+   $('.modal-trigger').leanModal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: .5, // Opacity of modal background
+      in_duration: 300, // Transition in duration
+      out_duration: 200, // Transition out duration
+      ready: function() { alert('Ready'); }, // Callback for Modal open
+      complete: function() { alert('Closed'); } // Callback for Modal close
     });
-
-   $('#modal1').openModal();
-
-window.onload=timeout;
-function timeout(){
-window.setTimeout("redirect()",15000)}
-
-function redirect(){
-window.location="home.html"
-return}
