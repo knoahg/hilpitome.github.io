@@ -49,11 +49,15 @@ div#port h1, h3{
 footer, li{
   display: inline;
 }
-/*.img-circle {
-        border-radius: 50%;
-        max-width: 200px;
-        max-height: 200px;
-        border: 5px solid black;
+.img-circle {
+        border-radius: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        border: 2px solid black;
+        position: fixed;
+        background-color:pink;
+        z-index: 999;
+      }
 
 
 
