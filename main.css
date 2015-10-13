@@ -58,9 +58,8 @@ footer, li{
         max-height: 150px;
         border: 2px solid black;
         position: fixed;
-        background-color:red;
+        background-color:pink;
         z-index: 999;
-        color: white;
       }
 
 
