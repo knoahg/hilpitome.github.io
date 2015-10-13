@@ -6,6 +6,7 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="reset.css"/>
       <link rel="stylesheet" type="text/css" href="main.css"/>
 
 
@@ -22,63 +23,95 @@
 
     <a class="modal-trigger img-circle" href="#modal1">Contact Me</a>
 
-    <div id="port" class="portfolio">
-    <h1>Portfolio</h1>
+    <section class="cd-hero">
+    	<ul class="cd-hero-slider">
+    		<li class="selected">
+    			<div class="cd-full-width">
 
-    <h3>Take a look at some of my work</h3>
-    <div class="row myPortfolio">
-      <div class="col s4 card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator"  src="images/android.jpg">
+          <h1>Portfolio</h1>
+
+          <h3>Take a look at some of my work</h3>
+          <div class="row myPortfolio">
+            <div class="col s4 card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator"  src="images/android.jpg">
+                    </div>
+                    <div class="card-content">
+
+                      <span class="card-title activator grey-text text-darken-4">My android apps<i class="material-icons right">more_vert</i></span>
+
+                    </div>
+
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">My android apps<i class="material-icons right">close</i></span>
+                        <p id="andi">The links below will take you to google play store</p>
+                        <ul>
+                          <li><a href="https://play.google.com/store/apps/details?id=com.jjh.shortstories">Short stories app</a></li>
+                          <li><a href="https://play.google.com/store/apps/details?id=com.kuria.djvideos&hl=en">Dj afro movies app</a></li>
+                        </ul>
+                      </div>
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">My android apps<i class="material-icons right">more_vert</i></span>
+              <div class="col s4 card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="images/ruby.jpeg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">My Ruby on Rails Web apps<i class="material-icons right">more_vert</i></span>
 
-              </div>
+                  </div>
 
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">My android apps<i class="material-icons right">close</i></span>
-                  <p id="andi">The links below will take you to google play store</p>
-                  <ul>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.jjh.shortstories">Short stories app</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.kuria.djvideos&hl=en">Dj afro movies app</a></li>
-                  </ul>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">My Ruby on Rails Web apps<i class="material-icons right">close</i></span>
+                      <p id="andi">The links below will take you to my rails Apps</p>
+                      <ul>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.jjh.shortstories">Short stories app</a></li>
+                      </ul>
+                    </div>
+            </div>
+            <div class="col s4 card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator"  src="images/html_css.jpeg">
                 </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">My Html Css Projects<i class="material-icons right">more_vert</i></span>
+
+                </div>
+
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">My Html Css Projects<i class="material-icons right">close</i></span>
+                    <p id="andi">The links below will take you to my Html/Css projects</p>
+                    <ul>
+                      <li><a href="http://economist-desk-47680.bitballoon.com/">Yolomy</a></li>
+                    </ul>
+                  </div>
+          </div>
+    		</li>
+        <li class="selected">
+          <div class="cd-full-width">
+            <div id="abt" class="about">
+            <h1 class="animated zoomInDown" >I dream logic</h1>
+            <h3 class="animated slideInLeft">I believe the human mind is superior to computers</h3>
+            <h3 class="animated slideInRight">All we have to do is focus</h3>
+            </div>
         </div>
-        <div class="col s4 card medium">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator"  src="images/ruby.jpeg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">My Ruby on Rails Web apps<i class="material-icons right">more_vert</i></span>
+        </li>
 
-            </div>
+    		<!-- othe slides here -->
 
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">My Ruby on Rails Web apps<i class="material-icons right">close</i></span>
-                <p id="andi">The links below will take you to my rails Apps</p>
-                <ul>
-                  <li><a href="https://play.google.com/store/apps/details?id=com.jjh.shortstories">Short stories app</a></li>
-                </ul>
-              </div>
-      </div>
-      <div class="col s4 card medium">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator"  src="images/html_css.jpeg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">My Html Css Projects<i class="material-icons right">more_vert</i></span>
+    	</ul> <!-- .cd-hero-slider -->
 
-          </div>
+    	<div class="cd-slider-nav">
+    		<nav>
+    			<span class="cd-marker item-1"></span>
 
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">My Html Css Projects<i class="material-icons right">close</i></span>
-              <p id="andi">The links below will take you to my Html/Css projects</p>
-              <ul>
-                <li><a href="http://economist-desk-47680.bitballoon.com/">Yolomy</a></li>
-              </ul>
-            </div>
-    </div>
+    			<ul>
+    				<li class="selected"><a href="#0">Intro</a></li>
+    				<li><a href="#0">Tech 1</a></li>
+    				<!-- other navigation items here -->
+    			</ul>
+    		</nav>
+    	</div> <!-- .cd-slider-nav -->
+    </section> <!-- .cd-hero -->
     <div class="row">
       <h3>About Me</h3>
 
@@ -87,11 +120,7 @@
 
   </div>
 
-    <div id="abt" class="about">
-    <h1 class="animated zoomInDown" >I dream logic</h1>
-    <h3 class="animated slideInLeft">I believe the human mind is superior to computers</h3>
-    <h3 class="animated slideInRight">All we have to do is focus</h3>
-    </div>
+
     <div class="container">
       <div class="row">
 
@@ -180,6 +209,7 @@
       <script src="materialize/js/materialize.js"></script>
 
       <script type="text/javascript" src="custom.js"></script>
+      <script src="modernizr.js"></script> <!-- Modernizr -->
 
 
       <script>
