@@ -1,9 +1,12 @@
 body {
-     height:100%;
+
      margin:0;
      padding:0;
      background-color: black;
      font-family: chrisicon;
+}
+h4 {
+  color: white;
 }
 
 .container-fluid{
@@ -17,35 +20,18 @@ body {
 .about{
   color: white;
 }
-.boom{
-  height: 150px;
-  width: 150px;
-}
+
 .myPortfolio{
  text-align: center;
-}
-
-div#port h1, h3{
-
-    color: white;
-    padding-top: 20px;
-
+ height: 300px;
 }
 
 
 
-.activator{
-  width: 250px;
- height: 250px;
- border-radius: 50%;
- margin: 0 auto;
- border: 7px solid #fff;
-}
-#andi{
-  font-size: 14px;
-}
+
 .page{
-  height: 375px;
+  height: 380px;
+  text-align: center;
 }
 .social{
   height: 36px;
@@ -66,9 +52,14 @@ footer, li{
 }
 .page-footer{
   text-align: center;
-  padding-top: 10px;
+
   color: white;
+  height: 50px;
 }
+#foot{
+  margin-top: 100px;
+}
+
 .tabs{
   background-color: black;
   color: white;
