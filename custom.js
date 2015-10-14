@@ -10,6 +10,7 @@
       out_duration: 200, // Transition out duration
 
     });
+    
     $('.cd-slider-nav li').on('click', function(event){
     	event.preventDefault();
     	var selectedItem = $(this);
