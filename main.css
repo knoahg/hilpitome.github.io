@@ -2,17 +2,26 @@ body {
      height:100%;
      margin:0;
      padding:0;
+     background-color: black;
+     font-family: chrisicon;
 }
 
 .container-fluid{
 
 }
+.contact{
+  text-align: center;
+}
 
-.portfolio {
-	text-align: center;
-   height: 400px;
-   background-image: url("images/terminal.png");
-
+.page{
+  height: 70%;
+}
+.about{
+  color: white;
+}
+.boom{
+  height: 150px;
+  width: 150px;
 }
 .myPortfolio{
  text-align: center;
@@ -24,10 +33,8 @@ div#port h1, h3{
     padding-top: 20px;
 
 }
-.buttons{
-  height: 100px;
-}
-.button	{ position:fixed;}
+
+
 .activator{
   width: 250px;
  height: 250px;
@@ -48,16 +55,25 @@ footer, li{
 }
 .img-circle {
         border-radius: 100%;
-        max-width: 150px;
-        max-height: 150px;
+        width: 120px;
+        height: 120px;
         border: 2px solid black;
-        position: fixed;
-        background-color:pink;
-        z-index: 999;
+
+
       }
 
 
 
 .nav-wrapper {
 	background-color: #290066;
+}
+.page-footer{
+  text-align: center;
+}
+.tabs{
+  background-color: black;
+  color: white;
+}
+.modal-trigger{
+  color: pink;
 }
