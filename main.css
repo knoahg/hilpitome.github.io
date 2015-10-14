@@ -4,9 +4,10 @@ body {
      padding:0;
      background-color: black;
      font-family: chrisicon;
+
 }
 h4 {
-  color: white;
+     color: #ee6e73;
 }
 
 .top{
@@ -21,7 +22,7 @@ h4 {
 
 
 .about{
-  color: white;
+   color: #ee6e73;
 }
 .resume{
   width: 200px;
@@ -63,7 +64,8 @@ footer, li{
         border-radius: 100%;
         width: 120px;
         height: 120px;
-        border: 2px solid black;
+        border: 2px solid pink;
+
       }
 
 .nav-wrapper {
@@ -72,17 +74,17 @@ footer, li{
 
 .page-footer{
   text-align: center;
-  color: white;
+  color: #ee6e73;
   height: 50px;
   margin-top: 350px;
   }
 
 .tabs{
   background-color: black;
-  color: white;
+
 }
 .modal-trigger{
-  color: pink;
+color: #ee6e73;
 }
 .modal{
   margin-top: 100px;
