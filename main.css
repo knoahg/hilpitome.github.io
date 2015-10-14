@@ -23,6 +23,14 @@ h4 {
 .about{
   color: white;
 }
+.resume{
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 20px;
+  color: white;
+  background-color: blue;
+
+}
 
 .myPortfolio{
  text-align: center;
