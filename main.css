@@ -13,9 +13,7 @@ body {
   text-align: center;
 }
 
-.page{
-  height: 70%;
-}
+
 .about{
   color: white;
 }
@@ -29,10 +27,11 @@ body {
 
 div#port h1, h3{
 
-    color: green;
+    color: white;
     padding-top: 20px;
 
 }
+
 
 
 .activator{
@@ -45,7 +44,9 @@ div#port h1, h3{
 #andi{
   font-size: 14px;
 }
-
+.page{
+  height: 375px;
+}
 .social{
   height: 36px;
   width: 40px;
@@ -58,17 +59,15 @@ footer, li{
         width: 120px;
         height: 120px;
         border: 2px solid black;
-
-
       }
-
-
 
 .nav-wrapper {
 	background-color: #290066;
 }
 .page-footer{
   text-align: center;
+  padding-top: 10px;
+  color: white;
 }
 .tabs{
   background-color: black;
@@ -76,4 +75,7 @@ footer, li{
 }
 .modal-trigger{
   color: pink;
+}
+.modal{
+  margin-top: 100px;
 }
