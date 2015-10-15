@@ -35,7 +35,9 @@ h4 {
 
 .myPortfolio{
  text-align: center;
-
+}
+.card-reveal li {
+  display: list-item;
 }
 .look{
   margin: 0;
