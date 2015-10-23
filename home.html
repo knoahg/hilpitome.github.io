@@ -65,7 +65,7 @@
       <div class="section" id="sect">
      <div id="test2" class="col s12 page">
          <div class="row myPortfolio">
-           <h4 class="look">Take a look at some of my work</h4>
+           <h4 class="look">Previous Work</h4>
             <div class="col s4 card medium">
              <div class="card-image waves-effect waves-block waves-light">
                <img class="activator"  src="images/android.jpg">
@@ -140,29 +140,31 @@
     <div id="modal1" class="modal">
       <div class="modal-content">
         <h6>Drop Me a Line</h6>
-        <form class="col s12">
-        <div class="row">
+        <form action="//formspree.io/hilpitome@gmail.com"
+         method="POST" onsubmit="return form();" name="contactForm">
+          <div class="row">
 
-            <div class="input-field col s6">
-                <i class="mdi-action-account-circle prefix"></i>
-                <input id="first_name" type="text" class="validate">
-                <label for="first_name">Name</label>
-            </div>
-            <div class="input-field col s6">
-                <i class="mdi-communication-email prefix"></i>
-                <input id="icon-email" type="email" class="validate">
-                <label for="icon-email">Email Address</label>
-            </div>
-            <div class="input-field col s12">
-                <i class="mdi-editor-mode-edit prefix"></i>
-                <input id="body" type="text" class="validate">
-                <label for="body">Body</label>
-            </div>
+              <div class="input-field col s6">
+                  <i class="mdi-action-account-circle prefix"></i>
+                  <!-- <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Name</label> -->
+                  <input type=”text” name=”name“>
+              </div>
+              <div class="input-field col s6">
+                  <i class="mdi-communication-email prefix"></i>
+                  <input id="icon-email" type="email" class="validate">
+                  <label for="icon-email">Email Address</label>
+              </div>
+              <div class="input-field col s12">
+                  <i class="mdi-editor-mode-edit prefix"></i>
+                  <input id="body" type="text" class="validate">
+                  <label for="body">Body</label>
+              </div>
 
-            <button class="btn waves-effect waves-light black" type="submit" name="action">Submit
-                <i class="mdi-content-send right"></i>
-            </button>
-        </div>
+              <button class="btn waves-effect waves-light black" type="submit" name="action" value="send">Submit
+                  <i class="mdi-content-send right"></i>
+              </button>
+          </div>
         </form>
       </div>
       <!-- <div class="modal-footer">
@@ -179,34 +181,29 @@
 
             <ul>
               <li>
-                <img class="social" src="images/git.png">
-                <a class="grey-text text-lighten-3" href="https://github.com/hilpitome" target="_blank">
-                  <i class="fa fa-github-square"></i> Github
-                  </a></li>
+                <a href="https://github.com/hilpitome" target="_blank"><img class="social" src="images/git.png"></a>
+
               <li>
+                <a  href="https://www.facebook.com/hilary.egesa" target="_blank">
                 <img class="social" src="images/facebook.png">
-                <a class="grey-text text-lighten-3" href="https://www.facebook.com/hilary.egesa" target="_blank">
-                <i class="fa fa-linkedin-square"></i> Facebook
-                </a></li>
+              </a>
+
               <li>
-                <img class="social" src="images/linked_in.png">
-                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/profile/view?id=AAIAABRdCqIBjWXLc34906r_Mda03-xxmUkAgTQ&trk=nav_responsive_tab_profile" target="_blank">
-                  <i class="fa fa-linkedin-square"></i> Linkedin
-                  </a></li>
+                  <a href="https://ke.linkedin.com/pub/hilary-baraka-egesa/96/4b9/516" target="_blank">
+                <img class="social" src="images/linked_in.png"></a>
+
               <li>
-                <img class="social" src="images/g_plus.png">
-                <a class="grey-text text-lighten-3" href="#" target="_blank">
-                  <i class="fa fa-google-plus-square"></i> Google Plus
-                  </a></li>
+                <a href="#" target="_blank"><img class="social" src="images/g_plus.png"></a>
+
               <li>
-                <img class="social" src="images/twitter.png">
-                <a class="grey-text text-lighten-3" href="https://twitter.com/Barakahil?lang=en" target="_blank">
-                  <i class="fa fa-twitter-square"></i>Twitter</a></li>
-            </ul>
+                <a href="https://twitter.com/Barakahil?lang=en" target="_blank"><img class="social" src="images/twitter.png"></a>
+              </li>
+
+
           </div>
 
 
-      <div class="footer-copyright black white-text">
+      <div class="footer-copyright white-text">
         <div class="container">
         &copy; Hilary Egesa 2015
         </div>

@@ -2,7 +2,7 @@ body {
 
      margin:0;
      padding:0;
-     background-color: black;
+     background-color: #3f51b5;
      font-family: chrisicon;
 
 }
@@ -22,7 +22,7 @@ h4 {
 
 
 .about{
-   color: #ee6e73;
+   color: #212121;
 }
 .resume{
   width: 200px;
@@ -41,6 +41,7 @@ h4 {
 }
 .look{
   margin: 0;
+  color: #FFFFFF;
 }
 .activator{
   margin-top: 20px;
@@ -81,12 +82,15 @@ footer, li{
   margin-top: 350px;
   }
 
-.tabs{
-  background-color: black;
+.tabs {
+  background-color: #303f9f;
+ }
+ .tabs .tab a{
+   color: #FFFFFF;
+ }
 
-}
 .modal-trigger{
-color: #ee6e73;
+color: #FFFFFF;
 }
 .modal{
   margin-top: 100px;
