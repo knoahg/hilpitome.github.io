@@ -1,4 +1,25 @@
-body {
+.about {
+  background-image: url(images/keyboard2.jpeg);
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+}
+.page-footer{
+  text-align: center;
+  color: #ee6e73;
+  height: 50px;
+  margin-top: 350px;
+}
+.social{
+  height: 36px;
+  width: 40px;
+}
+footer, li{
+  display: inline;
+}
+/*body {
 
      margin:0;
      padding:0;
@@ -56,13 +77,7 @@ h4 {
   height: 430px;
   text-align: center;
 }
-.social{
-  height: 36px;
-  width: 40px;
-}
-footer, li{
-  display: inline;
-}
+
 .img-circle {
         border-radius: 100%;
         width: 120px;
@@ -75,12 +90,7 @@ footer, li{
 	background-color: #290066;
 }
 
-.page-footer{
-  text-align: center;
-  color: #ee6e73;
-  height: 50px;
-  margin-top: 350px;
-  }
+
 
 .tabs {
   background-color: #303f9f;
@@ -95,3 +105,4 @@ color: #FFFFFF;
 .modal{
   margin-top: 100px;
 }
+*/
