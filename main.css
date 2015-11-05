@@ -4,9 +4,10 @@ body{
 }
 nav {
   background-color: black;
-  opacity: 0.95;
+  opacity: 0.8;
+  padding-left: 10px;
 }
-.about {
+.landing {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/keyboard2.jpeg);
   background-repeat: no-repeat;
   height: 550px;
@@ -17,19 +18,42 @@ nav {
   color: white;
   padding-top: 80px;
 }
-.page-footer{
+.portfolio{
+ text-align: center;
+}
+.card-reveal li {
+  display: list-item;
+}
+.about{
   text-align: center;
-  color: #ee6e73;
+}
+.page-footer{
+  background-color: black;
+  text-align: center;  
   height: 50px;
   margin-top: 350px;
+
+}
+
+.bottom {
+  background-color: black;
+  padding-top: 10px;
+}
+
+footer, li{
+  display: inline;
 }
 .social{
   height: 36px;
   width: 40px;
 }
-footer, li{
-  display: inline;
+.img-circle {
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+        border: 2px solid black;
 }
+
 /*body {
 
      margin:0;
@@ -65,12 +89,8 @@ h4 {
 
 }
 
-.myPortfolio{
- text-align: center;
-}
-.card-reveal li {
-  display: list-item;
-}
+
+
 .look{
   margin: 0;
   color: #FFFFFF;
@@ -89,13 +109,7 @@ h4 {
   text-align: center;
 }
 
-.img-circle {
-        border-radius: 100%;
-        width: 120px;
-        height: 120px;
-        border: 2px solid pink;
 
-      }
 
 .nav-wrapper {
 	background-color: #290066;
