@@ -1,10 +1,21 @@
+body{
+ font-family: Courier New;
+
+}
+nav {
+  background-color: black;
+  opacity: 0.95;
+}
 .about {
-  background-image: url(images/keyboard2.jpeg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/keyboard2.jpeg);
   background-repeat: no-repeat;
   height: 550px;
   width: 100%;
   display: inline-block;
   background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
 }
 .page-footer{
   text-align: center;
