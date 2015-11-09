@@ -3,12 +3,12 @@
     <head>
      <link rel="stylesheet" href="css/animate/animate.min.css">
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
       <link rel="stylesheet" type="text/css" href="reset.css"/>
       <link rel="stylesheet" type="text/css" href="main.css"/>
-
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,28 +23,29 @@
 	      <a href="#!" class="brand-logo">Hilpitome</a>
 	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 	      <ul class="right hide-on-med-and-down">
-	        <li class="active"><a href="sass.html">About</a></li>
-	        <li><a href="portfolio">Portfolio</a></li>
-	        <li><a href="#">Resume</a></li>
-
+	        <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="#resume">Resume</a></li>
+            <!-- <li class="active"><a class="modal-trigger" href="#modal1">Home</a></li> -->
 	      </ul>
 	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="#about">About</a></li>
-	        <li><a href="#portfolio">Portfolio</a></li>
-	        <li><a href="#">Resume</a></li>
+          <li><a class="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="#resume">Resume</a></li>
 	      </ul>
 	    </div>
      </nav>
    </div>
+
      <div class="container-fluid">
-	    
-	     <div class="landing"> <!-- beggining of landing page -->
+
+	     <div class="landing" id="home"> <!-- beggining of landing page -->
             <h1 class="animated shake"> Hi again!</h1>
             <p class="animated zoomIn">I am a software Engineer who loves writing elegant code<p>
             <p>Check out my portfolio below to see what I mean</p>
 	     </div> <!-- end of landing -->
 
-	     <div class="container"> 
+	     <div class="container">
 	      <div  id="portfolio">
 	       <div class="row portfolio"> <!-- beggining of portfolio -->
 	           <h4 class="look">Porfolio</h4>
@@ -54,7 +55,7 @@
 	             </div>
 	             <div class="card-content">
 
-	               <span class="card-title activator grey-text text-darken-4">My android apps<i class="material-icons right">more_vert</i></span>
+	               <span class="card-title activator grey-text text-darken-4">Android apps<i class="material-icons right">more_vert</i></span>
 
 	             </div>
 
@@ -72,7 +73,7 @@
 	                 <img class="activator"  src="images/ruby.jpeg">
 	               </div>
 	               <div class="card-content">
-	                 <span class="card-title activator grey-text text-darken-4">My Ruby on Rails Web apps<i class="material-icons right">more_vert</i></span>
+	                 <span class="card-title activator grey-text text-darken-4">Ruby on Rails Web apps<i class="material-icons right">more_vert</i></span>
 
 	               </div>
 
@@ -99,18 +100,18 @@
 	                       </ul>
 	                  </div>
 	               </div>
-	             </div>	   
-	        </div>     	
-	      
+	             </div>
+	        </div>
+
 	     </div> <!-- end of portfolio -->
 	 </div>
 
 	 <div class="container">
-	 
+
 	  <div class="about">
-	  	   
+
          <div class="row">
-            
+
             <h4>About</h4>
             <div class="col s4">
              	<img class="img-circle"src="images/manu_u.jpeg">
@@ -122,7 +123,7 @@
          </div>
             <div class="row">
               <div class="col s6">
-               <p>I am a software engineer who loves the process of thinking through problems</p>
+               <p>I love the process of thinking through problems</p>
               </div>
               <div class="col s4">
                <img class="img-circle"src="images/tesla.jpeg">
@@ -136,9 +137,9 @@
                   <p>My test in music is stuck in the 90s. The golden age of hiphop to be precise. You can contact me solely for this reason. I wouldn't mind talking about a few jams</p>
                </div>
             </div>
-          
+
 	  </div>
-	 	
+
 	 </div>
 
 
@@ -154,17 +155,17 @@
        </ul>
      </div>
      <div class="row contact">
-      <a class="modal-trigger" href="#modal1">Contact Me</a>
+
      </div>
      <div id="test1" class="col s12 page">
 
         <div id="abt" class="about">
-         
+
         </div>
       </div>
       <div class="section" id="sect">
      <div id="test2" class="col s12 page">
-         
+
           </div>
         </div>
 
