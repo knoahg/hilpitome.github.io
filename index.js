@@ -1,5 +1,5 @@
 $(function(){
-    $(".element").typed({
+    $(".elemnt").typed({
         strings: ["Hi", "I am Hilary Egesa!", "I am skilled in:","Ruby on Rails.", "android.", "javascript.", " and UX design"],
         typeSpeed: 0.5
     });
