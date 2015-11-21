@@ -1,10 +1,9 @@
 body{
  font-family: Courier New;
-
 }
 nav {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.65;
   padding-left: 10px;
 }
 .landing {
@@ -53,6 +52,17 @@ footer, li{
         height: 120px;
         border: 2px solid black;
 }
+.activator{
+  margin-top: 20px;
+  height: 300px;
+  width: 200px;
+}
+.modal-trigger{
+
+}
+.modal{
+  margin-top: 100px;
+}
 
 /*body {
 
@@ -95,11 +105,7 @@ h4 {
   margin: 0;
   color: #FFFFFF;
 }
-.activator{
-  margin-top: 20px;
-  height: 300px;
-  width: 200px;
-}
+
 .card.medium{
   height: 350px;
 }
@@ -124,10 +130,6 @@ h4 {
    color: #FFFFFF;
  }
 
-.modal-trigger{
-color: #FFFFFF;
-}
-.modal{
-  margin-top: 100px;
-}
+
+
 */
