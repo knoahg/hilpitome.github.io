@@ -1,5 +1,5 @@
 
-
+$(document).ready(function() {
 
 
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
@@ -10,11 +10,21 @@
       out_duration: 200, // Transition out duration
 
     });
+    
+    $('.carousel').carousel();
+    
+    
+     $(".button-collapse").sideNav()
+     
+     function openLink(link)
+{
+	
+   location.href = link;
+
+}
+    
+
+});
 
 
-//    $(".button-collapse").sideNav()
-//    $('.carousel').carousel({
-//        time_constant: 1000,
-//        shift: 2000
-//
-//    });
+   

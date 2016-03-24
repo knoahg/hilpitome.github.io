@@ -19,10 +19,16 @@ nav {
 }
 .portfolio{
  text-align: center;
+ background-color: rgba(0, 0, 0, 0.8);
+ margin-top: -17px;
 }
+
+    
+
 .carousel-item{
   width: 250px;
-  height: 250px;
+  height: inherit;
+    
 }
 .card-reveal li {
   display: list-item;
