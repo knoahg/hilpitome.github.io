@@ -20,6 +20,10 @@ nav {
 .portfolio{
  text-align: center;
 }
+.carousel-item{
+  width: 250px;
+  height: 250px;
+}
 .card-reveal li {
   display: list-item;
 }
@@ -28,7 +32,7 @@ nav {
 }
 .page-footer{
   background-color: black;
-  text-align: center;  
+  text-align: center;
   height: 50px;
   margin-top: 350px;
 
