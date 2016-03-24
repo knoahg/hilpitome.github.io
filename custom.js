@@ -12,9 +12,9 @@
     });
 
 
-    $(".button-collapse").sideNav()
-    $('.carousel').carousel({
-        time_constant: 1000,
-        shift: 2000
-
-    });
+//    $(".button-collapse").sideNav()
+//    $('.carousel').carousel({
+//        time_constant: 1000,
+//        shift: 2000
+//
+//    });
